@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Moon, Sun } from "lucide-react";
+import { FiMoon, FiSun } from "react-icons/fi";
 
 function ThemeToggle() {
   const [isDark, setIsDark] = useState(() => {
@@ -20,9 +20,12 @@ function ThemeToggle() {
       type="button"
       onClick={toggleTheme}
       aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
-      className="fixed right-5 top-5 z-50 flex h-11 w-11 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 shadow-md transition hover:scale-105 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+      className="border-slate-300 dark:border-zinc-700 dark:text-zinc-200 shadow-md
+      transition h-11 bottom-5 text-slate-700 border z-50 hover:scale-105
+      justify-center bg-white hover:bg-slate-100 fixed right-5 dark:hover:bg-zinc-800
+      rounded-full items-center flex w-11 dark:bg-zinc-900"
     >
-      {isDark ? <Sun size={19} /> : <Moon size={19} />}
+      {isDark ? <FiSun size={19} /> : <FiMoon size={19} />}
     </button>
   );
 }

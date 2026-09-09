@@ -6,7 +6,8 @@ const projects = {
       shortDescription:
         "A dashboard that analyzes GitHub pull requests, reviews and development activity.",
       description:
-        "A full-stack dashboard that helps developers understand pull request activity, review activity and important development metrics for a GitHub repository.",
+        "A full-stack dashboard that helps developers understand pull request activity, " +
+        "review activity and important development metrics for a GitHub repository.",
       whatIsIt:
         "The project connects with the GitHub API and presents pull request and review information through a clean dashboard.",
       features: [
@@ -15,7 +16,7 @@ const projects = {
         "Open, closed and merged PR tracking",
         "Review activity analysis",
         "Top reviewers and authors",
-        "Stale and old pull request detection"
+        "Stale and old pull request detection",
       ],
       technologies: [
         "React",
@@ -24,31 +25,37 @@ const projects = {
         "Spring Boot",
         "REST API",
         "GitHub API",
-        "CSS"
+        "CSS",
       ],
       myWork:
-        "I built the frontend dashboard, connected the application with the backend API, processed GitHub data and created the dashboard interface and metrics.",
+        "I built the frontend dashboard, connected the application with the backend API, " +
+        "processed GitHub data and created the dashboard interface and metrics.",
       github: "https://github.com/Ashutoshkumar9140/github-pr-dashboard",
       live: "https://ashutoshkumar9140.github.io/github-pr-dashboard/",
-      video: "/projects/github-pr-dashboard/demo.mp4",
+      video: "projects/PR-dashboard/github-pr-dashboard-demo-HQ-60fps.mp4",
       images: [
-        "/projects/github-pr-dashboard/1.png",
-        "/projects/github-pr-dashboard/2.png",
-        "/projects/github-pr-dashboard/3.png",
-        "/projects/github-pr-dashboard/4.png",
-        "/projects/github-pr-dashboard/5.png"
-      ]
+        "projects/PR-dashboard/BEST_SCREENSHOTS_CONTACT.jpg",
+        "projects/PR-dashboard/PR_Dashboard_1.jpg",
+        "projects/PR-dashboard/PR_Dashboard_2.jpg",
+        "projects/PR-dashboard/PR_Dashboard_3.jpg",
+        "projects/PR-dashboard/PR_Dashboard_4.jpg",
+        "projects/PR-dashboard/PR_Dashboard_5.jpg",
+        "projects/PR-dashboard/PR_Dashboard_6.jpg",
+        "projects/PR-dashboard/PR_Dashboard_7.jpg",
+        "projects/PR-dashboard/PR_Dashboard_8.jpg",
+      ],
     },
-
     {
       id: "bagsafe",
       title: "BagSafe",
       shortDescription:
         "A web application for students and homeowners to manage temporary luggage storage.",
       description:
-        "BagSafe is a luggage storage platform that connects students who need temporary storage with homeowners who can provide available storage space.",
+        "BagSafe is a luggage storage platform that connects students who need temporary storage " +
+        "with homeowners who can provide available storage space.",
       whatIsIt:
-        "The application provides separate experiences for students and homeowners, including authentication, storage requests, profiles and communication.",
+        "The application provides separate experiences for students and homeowners, including " +
+        "authentication, storage requests, profiles and communication.",
       features: [
         "Student and homeowner roles",
         "Authentication",
@@ -56,36 +63,40 @@ const projects = {
         "Student profile",
         "Homeowner profile",
         "Collection and storage management",
-        "Chat functionality"
+        "Chat functionality",
       ],
       technologies: [
         "React",
         "JavaScript",
         "React Router",
+        "Context API",
+        "Local Storage",
         "REST APIs",
-        "CSS"
+        "CSS",
       ],
       myWork:
         "I built the React frontend, created the different user flows and developed the application's main interfaces and functionality.",
       github: "https://github.com/Ashutoshkumar9140/BagSafe",
-      live: "#",
-      video: "/projects/bagsafe/demo.mp4",
+      live: "https://ashutoshkumar9140.github.io/BagSafe/",
+      video: "projects/bagsafe/bagsafe-portfolio-demo-60fps.mp4",
       images: [
-        "/projects/bagsafe/1.png",
-        "/projects/bagsafe/2.png",
-        "/projects/bagsafe/3.png",
-        "/projects/bagsafe/4.png",
-        "/projects/bagsafe/5.png"
-      ]
+        "projects/bagsafe/01-bagsafe-overview.jpg",
+        "projects/bagsafe/02-bagsafe-rooms.jpg",
+        "projects/bagsafe/03-bagsafe-rentals.jpg",
+        "projects/bagsafe/04-bagsafe-tenants.jpg",
+        "projects/bagsafe/05-bagsafe-payments.jpg",
+        "projects/bagsafe/06-bagsafe-facilities.jpg",
+        "projects/bagsafe/07-bagsafe-dashboard.jpg",
+        "projects/bagsafe/08-bagsafe-management.jpg",
+      ],
     },
-
     {
       id: "landlord-desk",
       title: "Landlord Desk",
-      shortDescription:
-        "A rental management web application built with React.",
+      shortDescription: "A rental management web application built with React.",
       description:
-        "Landlord Desk is a rental management application designed to help landlords manage rental-related information through a simple web interface.",
+        "Landlord Desk is a rental management application designed to help landlords manage " +
+        "rental-related information through a simple web interface.",
       whatIsIt:
         "The application provides a central interface for managing rental information and organizing landlord-related tasks.",
       features: [
@@ -93,299 +104,166 @@ const projects = {
         "Property information",
         "Responsive interface",
         "React-based components",
-        "Organized dashboard experience"
+        "Organized dashboard experience",
       ],
       technologies: [
         "React",
         "JavaScript",
         "CSS",
-        "Vite"
+        "Vite",
+        "Responsive Design",
+        "Git & GitHub",
       ],
       myWork:
         "I built the application using React and created the frontend interface and project structure.",
       github: "https://github.com/Ashutoshkumar9140/landlord_desk",
-      live: "#",
-      video: "/projects/landlord-desk/demo.mp4",
+      live: "https://ashutoshkumar9140.github.io/landlord_desk/",
+      video: "projects/landlord-dashboard/Landlord_Desk_Portfolio.mp4",
       images: [
-        "/projects/landlord-desk/1.png",
-        "/projects/landlord-desk/2.png",
-        "/projects/landlord-desk/3.png",
-        "/projects/landlord-desk/4.png",
-        "/projects/landlord-desk/5.png"
-      ]
-    }
+        "projects/landlord-dashboard/01_dashboard-overview.png",
+        "projects/landlord-dashboard/02_room-details.png",
+        "projects/landlord-dashboard/03_room-management.png",
+        "projects/landlord-dashboard/04_search-and-filter.png",
+        "projects/landlord-dashboard/05_tenant-and-billing.png",
+        "projects/landlord-dashboard/06_settings-and-appearance.png",
+        "projects/landlord-dashboard/07_filtered-room-results.png",
+        "projects/landlord-dashboard/08_billing-overview.png",
+      ],
+    },
   ],
 
   react: [
     {
-      id: "moviezone",
-      title: "MovieZone",
+      id: "background-changer",
+      title: "Background Changer",
       shortDescription:
-        "A React movie application built to practice components, state and API-based data.",
+        "A simple React application for changing the background color interactively.",
       description:
-        "A React project created to practice building a movie-focused interface and working with dynamic application data.",
+        "A small React project built to practice state management, event handling and dynamic UI updates.",
       whatIsIt:
-        "The application displays movie information through reusable React components and handles changing application data.",
+        "The application allows users to select different colors and dynamically change the background.",
       features: [
-        "Movie listing",
-        "Reusable React components",
-        "Dynamic data rendering",
-        "State management"
+        "Interactive color selection",
+        "Dynamic background changes",
+        "React state management",
+        "Event handling",
       ],
-      technologies: [
-        "React",
-        "JavaScript",
-        "CSS",
-        "REST API"
-      ],
+      technologies: ["React", "JavaScript", "CSS"],
       myWork:
-        "I built the React interface and practiced component-based development, state management and API data handling.",
-      github: "#",
-      live: "#",
-      video: "/projects/moviezone/demo.mp4",
-      images: [
-        "/projects/moviezone/1.png",
-        "/projects/moviezone/2.png",
-        "/projects/moviezone/3.png",
-        "/projects/moviezone/4.png",
-        "/projects/moviezone/5.png"
-      ]
+        "I built the application using React and implemented the interactive color-changing functionality.",
+      github:
+        "https://github.com/Ashutoshkumar9140/React-Mini-Projects/tree/main/bgChanger",
     },
-
     {
-      id: "react-project-2",
-      title: "React Project 2",
+      id: "react-currency-converter",
+      title: "Currency Converter",
       shortDescription:
-        "A React practice project built while learning modern frontend development.",
+        "A React currency converter built to practice API integration and dynamic data handling.",
       description:
-        "A smaller React project created to practice React concepts and frontend development.",
+        "A React project created to practice working with currency data, user input and API-based information.",
       whatIsIt:
-        "This project is part of my collection of React practice applications.",
+        "The application allows users to select currencies, enter an amount and convert between currencies using API data.",
       features: [
-        "React components",
-        "Interactive interface",
-        "Responsive design"
+        "Currency selection",
+        "Amount conversion",
+        "API integration",
+        "Dynamic currency data",
+        "User input handling",
       ],
-      technologies: [
-        "React",
-        "JavaScript",
-        "CSS"
-      ],
+      technologies: ["React", "JavaScript", "CSS", "REST API"],
       myWork:
-        "I built the frontend interface and practiced React concepts through this project.",
-      github: "#",
-      live: "#",
-      video: "/projects/react-project-2/demo.mp4",
-      images: [
-        "/projects/react-project-2/1.png",
-        "/projects/react-project-2/2.png",
-        "/projects/react-project-2/3.png",
-        "/projects/react-project-2/4.png",
-        "/projects/react-project-2/5.png"
-      ]
+        "I built the React interface, handled user input and integrated API data for currency conversion.",
+      github:
+        "https://github.com/Ashutoshkumar9140/React-Mini-Projects/tree/main/currencyConverter",
     },
-
     {
-      id: "react-project-3",
-      title: "React Project 3",
+      id: "password-generator",
+      title: "Password Generator",
       shortDescription:
-        "Another React project created to practice frontend development.",
+        "A React password generator for creating customizable passwords.",
       description:
-        "A React practice application built while improving my understanding of React and JavaScript.",
+        "A React project created to practice state management, user input and generating dynamic password values.",
       whatIsIt:
-        "This project demonstrates practical React development through a smaller application.",
+        "The application generates passwords based on user-selected options.",
       features: [
-        "React components",
-        "Interactive UI",
-        "Responsive layout"
+        "Password generation",
+        "Customizable password options",
+        "User input handling",
+        "Dynamic password updates",
       ],
-      technologies: [
-        "React",
-        "JavaScript",
-        "CSS"
-      ],
+      technologies: ["React", "JavaScript", "CSS"],
       myWork:
-        "I developed the frontend and practiced React concepts while building this application.",
-      github: "#",
-      live: "#",
-      video: "/projects/react-project-3/demo.mp4",
-      images: [
-        "/projects/react-project-3/1.png",
-        "/projects/react-project-3/2.png",
-        "/projects/react-project-3/3.png",
-        "/projects/react-project-3/4.png",
-        "/projects/react-project-3/5.png"
-      ]
+        "I built the React interface and implemented the password generation and customization logic.",
+      github:
+        "https://github.com/Ashutoshkumar9140/React-Mini-Projects/tree/main/passwordGenerator",
     },
-
-    {
-      id: "react-project-4",
-      title: "React Project 4",
-      shortDescription:
-        "A frontend project built to practice React and JavaScript.",
-      description:
-        "A smaller React application from my frontend development practice projects.",
-      whatIsIt:
-        "The project focuses on building an interactive frontend using React.",
-      features: [
-        "Component-based UI",
-        "Interactive elements",
-        "Responsive design"
-      ],
-      technologies: [
-        "React",
-        "JavaScript",
-        "CSS"
-      ],
-      myWork:
-        "I created the application interface and implemented its React functionality.",
-      github: "#",
-      live: "#",
-      video: "/projects/react-project-4/demo.mp4",
-      images: [
-        "/projects/react-project-4/1.png",
-        "/projects/react-project-4/2.png",
-        "/projects/react-project-4/3.png",
-        "/projects/react-project-4/4.png",
-        "/projects/react-project-4/5.png"
-      ]
-    }
   ],
 
   javascript: [
     {
-      id: "typing-speed-tester",
-      title: "Typing Speed Tester",
+      id: "javascript-currency-converter",
+      title: "Currency Converter",
       shortDescription:
-        "A JavaScript project that measures typing speed and accuracy.",
+        "A currency conversion project built with HTML, CSS and JavaScript.",
       description:
-        "A browser-based typing speed application created to practice JavaScript events, timers and DOM manipulation.",
+        "A frontend currency converter created to practice JavaScript logic, API integration and handling user input.",
       whatIsIt:
-        "The application gives users text to type and calculates their typing performance.",
+        "The application allows users to enter an amount, select currencies and perform currency conversions using API data.",
       features: [
-        "Typing speed calculation",
-        "Accuracy tracking",
-        "Timer",
-        "Interactive interface"
+        "Currency selection",
+        "Currency conversion",
+        "API integration",
+        "User input handling",
       ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      technologies: ["HTML", "CSS", "JavaScript", "API"],
       myWork:
-        "I built the interface and implemented the typing logic, timer and performance calculations using JavaScript.",
-      github: "#",
-      live: "#",
-      video: "/projects/typing-speed-tester/demo.mp4",
-      images: [
-        "/projects/typing-speed-tester/1.png",
-        "/projects/typing-speed-tester/2.png",
-        "/projects/typing-speed-tester/3.png",
-        "/projects/typing-speed-tester/4.png",
-        "/projects/typing-speed-tester/5.png"
-      ]
+        "I built the interface and implemented the currency conversion functionality using JavaScript and API data.",
+      github:
+        "https://github.com/Ashutoshkumar9140/HTML-CSS-JS-Projects/tree/main/Medium-Projects/Currency%20converter",
     },
-
     {
-      id: "javascript-project-2",
-      title: "JavaScript Project 2",
+      id: "quiz",
+      title: "Quiz",
       shortDescription:
-        "A JavaScript project built to practice DOM manipulation and user interaction.",
+        "An interactive quiz application built with HTML, CSS and JavaScript.",
       description:
-        "A smaller JavaScript application created while practicing core frontend development concepts.",
+        "A browser-based quiz project created to practice JavaScript logic, event handling and managing user interactions.",
       whatIsIt:
-        "The project focuses on JavaScript logic and interactive browser functionality.",
+        "The application presents quiz questions and allows users to interact with the available answers.",
       features: [
-        "DOM manipulation",
-        "Event handling",
-        "Interactive UI"
+        "Interactive questions",
+        "Answer selection",
+        "Quiz logic",
+        "User interaction",
       ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      technologies: ["HTML", "CSS", "JavaScript"],
       myWork:
-        "I developed the interface and implemented the application's JavaScript functionality.",
-      github: "#",
-      live: "#",
-      video: "/projects/javascript-project-2/demo.mp4",
-      images: [
-        "/projects/javascript-project-2/1.png",
-        "/projects/javascript-project-2/2.png",
-        "/projects/javascript-project-2/3.png",
-        "/projects/javascript-project-2/4.png",
-        "/projects/javascript-project-2/5.png"
-      ]
+        "I built the quiz interface and implemented the question and user interaction logic using JavaScript.",
+      github:
+        "https://github.com/Ashutoshkumar9140/HTML-CSS-JS-Projects/tree/main/Medium-Projects/Quiz",
     },
-
     {
-      id: "javascript-project-3",
-      title: "JavaScript Project 3",
+      id: "rock-scissor-game",
+      title: "Rock Scissor Game",
       shortDescription:
-        "A frontend project created to practice JavaScript fundamentals.",
+        "A browser-based rock, paper and scissor style game built with JavaScript.",
       description:
-        "A JavaScript practice application focused on improving frontend logic and browser interaction.",
+        "An interactive game created to practice JavaScript logic, event handling and implementing game outcomes.",
       whatIsIt:
-        "The project demonstrates JavaScript functionality through an interactive frontend.",
+        "The application allows the user to make a choice and compares it with the computer's choice to determine the result.",
       features: [
-        "JavaScript logic",
-        "Event handling",
-        "Dynamic interface"
+        "Player choice",
+        "Computer choice",
+        "Game result calculation",
+        "Interactive gameplay",
       ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      technologies: ["HTML", "CSS", "JavaScript"],
       myWork:
-        "I built the frontend and implemented the JavaScript functionality.",
-      github: "#",
-      live: "#",
-      video: "/projects/javascript-project-3/demo.mp4",
-      images: [
-        "/projects/javascript-project-3/1.png",
-        "/projects/javascript-project-3/2.png",
-        "/projects/javascript-project-3/3.png",
-        "/projects/javascript-project-3/4.png",
-        "/projects/javascript-project-3/5.png"
-      ]
+        "I built the game interface and implemented the game logic and result calculation using JavaScript.",
+      github:
+        "https://github.com/Ashutoshkumar9140/HTML-CSS-JS-Projects/tree/main/Medium-Projects/rock-scissor%20game",
     },
-
-    {
-      id: "javascript-project-4",
-      title: "JavaScript Project 4",
-      shortDescription:
-        "A JavaScript frontend project built as part of my development practice.",
-      description:
-        "A smaller browser-based project created to practice JavaScript and frontend development.",
-      whatIsIt:
-        "The project focuses on applying JavaScript concepts to a practical frontend application.",
-      features: [
-        "Interactive interface",
-        "DOM manipulation",
-        "JavaScript functionality"
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      myWork:
-        "I developed the interface and implemented the project's JavaScript functionality.",
-      github: "#",
-      live: "#",
-      video: "/projects/javascript-project-4/demo.mp4",
-      images: [
-        "/projects/javascript-project-4/1.png",
-        "/projects/javascript-project-4/2.png",
-        "/projects/javascript-project-4/3.png",
-        "/projects/javascript-project-4/4.png",
-        "/projects/javascript-project-4/5.png"
-      ]
-    }
-  ]
+  ],
 };
 
 export default projects;

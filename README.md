@@ -1,16 +1,86 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is my personal portfolio website. I made this website to show my skills, projects, and experience as a frontend developer.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I am learning frontend development and working with HTML, CSS, JavaScript, React, and Tailwind CSS.
 
-## React Compiler
+I made this portfolio to keep my projects in one place and to show the things I have learned while building them.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the Oxlint configuration
+* HTML
+* CSS
+* JavaScript
+* React
+* Tailwind CSS
+* Vite
+* Git
+* GitHub
+*
+## Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Major Projects
+
+* GitHub PR Dashboard
+* BagSafe
+* Landlord Desk
+
+### React Projects
+
+* Background Changer
+* Currency Converter
+* Password Generator
+
+### HTML, CSS and JavaScript Projects
+
+* Quiz App
+* Rock Paper Scissors
+* Currency Converter
+* ToDo List
+* Typing Speed Tester
+* Food Recipe
+* Pixabay Clone
+
+## Features
+
+* Responsive design
+* Dark and light theme
+* Project details
+* Project screenshots and videos
+* GitHub links
+* Contact section
+* Simple and clean design
+
+## Run Locally
+
+Clone the repository.
+
+git clone <your-github-repository-link>
+
+Go to the project folder.
+
+cd portfolio
+
+Install the dependencies.
+
+npm install
+
+Start the development server.
+
+npm run dev
+
+Then open the local URL shown in the terminal.
+
+## Build
+
+To create a production build, run:
+
+npm run build
+
+## Contact
+
+You can find my GitHub and LinkedIn links on my portfolio website.
+
+Thanks for visiting my portfolio.

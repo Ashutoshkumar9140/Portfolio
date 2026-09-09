@@ -1,87 +1,126 @@
-import { ArrowRight, Download, Mail } from "lucide-react";
+import { FiArrowRight, FiDownload, FiMail } from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden border-b border-slate-200 dark:border-slate-800"
+      className={`dark:border-zinc-800 border-slate-300/80 bg-slate-200/80
+      border-b relative dark:bg-zinc-950 overflow-hidden`}
     >
-      <div className="mx-auto grid min-h-[calc(100vh-73px)] max-w-7xl items-center gap-12 px-5 py-20 sm:px-8 lg:grid-cols-2 lg:px-10 lg:py-24">
+      <div
+        className={`px-5 lg:py-24 mx-auto items-center lg:grid-cols-2
+        min-h-screen lg:px-10 py-20 gap-12 grid sm:px-8 max-w-7xl`}
+      >
         <div>
-          <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-indigo-500">
+          <p
+            className="mb-5 dark:text-amber-400 text-indigo-500 text-sm
+            uppercase font-semibold tracking-widest"
+          >
             Frontend Developer
           </p>
 
-          <h1 className="max-w-3xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
+          <h1
+            className="font-bold leading-tight sm:text-5xl max-w-3xl
+            tracking-tight text-4xl lg:text-6xl"
+          >
             Hi, I'm Ashutosh Kumar.
-            <span className="mt-2 block text-slate-500 dark:text-slate-400">
+            <span className="block text-slate-500 mt-2 dark:text-zinc-400">
               I build modern web experiences with React.
             </span>
           </h1>
 
-          <p className="mt-7 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg dark:text-slate-300">
+          <p
+            className="dark:text-zinc-300 max-w-2xl sm:text-lg mt-7
+            text-slate-600 text-base leading-7"
+          >
             I enjoy turning ideas into responsive, interactive and user-friendly
             web applications using JavaScript, React and modern frontend tools.
           </p>
 
-          <div className="mt-9 flex flex-wrap gap-4">
+          <div className="flex flex-wrap mt-9 gap-4">
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-indigo-700"
+              className={`dark:bg-amber-500 gap-2 text-white inline-flex
+              dark:hover:bg-amber-400 transition py-3 items-center
+              font-semibold bg-indigo-600 rounded-lg px-5 text-sm
+              dark:text-zinc-950 hover:bg-indigo-700`}
             >
-              View Projects
-              <ArrowRight size={17} />
+              View Projects <FiArrowRight size={17} />
             </a>
 
             <a
               href="#contact"
-              className="rounded-lg border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-800 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-100 dark:hover:bg-slate-900"
+              className={`text-sm hover:bg-slate-100 border-slate-300
+              dark:border-zinc-700 font-semibold transition border
+              dark:hover:bg-zinc-900 text-slate-800 dark:text-zinc-100
+              py-3 rounded-lg px-5`}
             >
               Contact Me
             </a>
 
             <a
-              href="/resume.pdf"
+              href="resume.pdf"
               download="Ashutosh-Kumar-Resume.pdf"
-              className="inline-flex items-center gap-2 rounded-lg border border-indigo-600 px-5 py-3 text-sm font-semibold text-indigo-600 transition hover:bg-indigo-50 dark:border-indigo-400 dark:text-indigo-400 dark:hover:bg-indigo-950"
+              className={`rounded-lg font-semibold text-indigo-600
+              border-indigo-600 transition hover:bg-indigo-50
+              dark:border-amber-500 px-5 dark:hover:bg-amber-950/20
+              py-3 border items-center dark:text-amber-400
+              inline-flex text-sm gap-2`}
             >
-              <Download size={17} />
+              <FiDownload size={17} />
               Download Resume
             </a>
           </div>
 
-          <div className="mt-8 flex items-center gap-5">
+          <div className="flex-wrap flex gap-5 items-center mt-8">
             <a
               href="https://github.com/Ashutoshkumar9140"
               target="_blank"
               rel="noreferrer"
-              className="text-sm font-medium text-slate-500 transition hover:text-indigo-500 dark:text-slate-400"
+              className={`font-medium dark:hover:text-amber-400 transition
+              hover:text-indigo-500 text-slate-500 dark:text-zinc-400 text-sm`}
             >
               GitHub
             </a>
 
             <a
-              href="#contact"
-              className="text-sm font-medium text-slate-500 transition hover:text-indigo-500 dark:text-slate-400"
+              href="https://www.linkedin.com/in/ashutosh-kumar-1b047a236"
+              target="_blank"
+              rel="noreferrer"
+              className={`hover:text-indigo-500 font-medium transition
+              text-slate-500 items-center dark:hover:text-amber-400
+              dark:text-zinc-400 gap-2 text-sm inline-flex`}
             >
+              <FaLinkedinIn size={17} />
               LinkedIn
             </a>
 
             <a
-              href="mailto:ashotoshraj.9628732@gamil.com"
-              className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 transition hover:text-indigo-500 dark:text-slate-400"
+              href="mailto:ashutoshraj.9628732@gmail.com"
+              className={`hover:text-indigo-500 font-medium transition
+              text-slate-500 items-center dark:hover:text-amber-400
+              dark:text-zinc-400 gap-2 text-sm inline-flex`}
             >
-              <Mail size={17} />
+              <FiMail size={17} />
               Email
             </a>
           </div>
         </div>
 
-        <div className="flex justify-center lg:justify-end">
-          <div className="relative flex h-72 w-72 items-center justify-center rounded-3xl border border-slate-200 bg-slate-50 shadow-xl sm:h-96 sm:w-96 dark:border-slate-800 dark:bg-slate-900">
-            <div className="flex h-40 w-40 items-center justify-center rounded-full bg-indigo-600 text-5xl font-bold text-white shadow-lg sm:h-52 sm:w-52 sm:text-6xl">
-              AK
-            </div>
+        <div className="justify-center flex lg:justify-end">
+          <div
+            className={`border dark:border-zinc-700 p-2 border-slate-300
+            relative bg-slate-50 dark:bg-zinc-900 shadow-slate-400/20
+            overflow-hidden sm:p-3 shadow-2xl rounded-3xl
+            dark:shadow-black/40`}
+          >
+            <img
+              src="ashu_pic.jpeg"
+              alt="Ashutosh Kumar"
+              className="rounded-2xl w-64 lg:w-[25rem] sm:h-[28rem]
+              sm:w-[22rem] lg:h-[32rem] h-80 object-center object-cover"
+            />
           </div>
         </div>
       </div>

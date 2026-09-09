@@ -3,13 +3,14 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import ExperienceJourney from "./components/ExperienceJourney";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-white">
+    <>
       <ThemeToggle />
       <Navbar />
 
@@ -18,11 +19,12 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <ExperienceJourney />
         <Contact />
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }
 

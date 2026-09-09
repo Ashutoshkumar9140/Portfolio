@@ -1,6 +1,6 @@
 function ProjectVideo({ video }) {
   return (
-    <div className="aspect-video overflow-hidden rounded-xl bg-black">
+    <div className="aspect-video rounded-xl overflow-hidden bg-black">
       <video
         className="h-full w-full object-contain"
         src={video}

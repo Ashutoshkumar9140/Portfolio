@@ -2,19 +2,41 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+* {
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  text-rendering: optimizeLegibility;
+}
+
+.dark body {
+  background: #020617;
+  color: #f8fafc;
 }
 
 button,
 a {
   -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a:focus-visible {
+  outline: none;
 }
 
 ::selection {
