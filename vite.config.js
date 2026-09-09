@@ -3,9 +3,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  // ................. Use relative paths for GitHub Pages .................
 
-
-  base: "./",
+  base: "/Portfolio/",
   plugins: [react(), tailwindcss()],
 });
